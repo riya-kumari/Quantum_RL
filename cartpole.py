@@ -44,7 +44,7 @@ def interact_env(state, model, epsilon, n_actions, env):
     return interaction
 
 if __name__ == "__main__":
-  wandb.login(key='933d4e0520bbaf59f9c051eee7ede00b601defd6')
+  wandb.login(key='')
 
   wandb.init(
         # set the wandb project where this run will be logged
